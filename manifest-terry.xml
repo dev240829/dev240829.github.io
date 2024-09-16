@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bt="http://schemas.microsoft.com/office/officeappbasictypes/1.0" xmlns:mailappor="http://schemas.microsoft.com/office/mailappversionoverrides/1.0" xsi:type="MailApp">
   <Id>c8510afa-2061-490e-90b7-58ec042565d0</Id>
-  <Version>2.0.2.528</Version>
+  <Version>2.0.2.527</Version>
   <ProviderName>LookOut Software</ProviderName>
   <DefaultLocale>en-US</DefaultLocale>
-  <DisplayName DefaultValue="Flex365x Connector 2.528"/>
+  <DisplayName DefaultValue="Flex365x Connector 2.527"/>
   <Description DefaultValue="Connect Outlook and Flex365x"/>
   <IconUrl DefaultValue="https://i.ibb.co/HYRQ7Sb/flex365x-icon.png"/>
   <HighResolutionIconUrl DefaultValue="https://i.ibb.co/HYRQ7Sb/flex365x-icon.png"/>
   <SupportUrl DefaultValue="https://flex365x.com"/>
   <AppDomains>
-    <AppDomain>https://dev240829.github.io</AppDomain>
-    <AppDomain>https://i.ibb.co</AppDomain>
-    <AppDomain>https://pimagov.sharepoint.com</AppDomain>
+    <AppDomain>https://localhost</AppDomain>
+    <AppDomain>https://tsifert111.z5.web.core.windows.net</AppDomain>
+    <AppDomain>https://ccscreative.sharepoint.com</AppDomain>
+    <AppDomain>https://44g7q3.sharepoint.com</AppDomain>
+    <AppDomain>https://dev-terry-01.github.io</AppDomain>    
   </AppDomains>
   <Hosts>
     <Host Name="Mailbox"/>
@@ -25,7 +27,7 @@
   <FormSettings>
     <Form xsi:type="ItemRead">
       <DesktopSettings>
-        <SourceLocation DefaultValue="https://dev240829.github.io/taskpane.html"/>
+        <SourceLocation DefaultValue="https://dev-terry-01.github.io/taskpane.html"/>
         <RequestedHeight>250</RequestedHeight>
       </DesktopSettings>
     </Form>
@@ -119,11 +121,11 @@
         <bt:Image id="Icon.80x80" DefaultValue="https://i.ibb.co/HYRQ7Sb/flex365x-icon.png"/>
       </bt:Images>
       <bt:Urls>
-        <bt:Url id="msgComposeTaskpane.Url" DefaultValue="https://dev240829.github.io/taskpane_msg_compose.html"/>        
-        <bt:Url id="Taskpane.Url" DefaultValue="https://dev240829.github.io/taskpane.html"/>
-        <bt:Url id="WebViewRuntime.Url" DefaultValue="https://dev240829.github.io/taskpane_msg_compose.html" />
+        <bt:Url id="msgComposeTaskpane.Url" DefaultValue="https://dev-terry-01.github.io/taskpane_msg_compose.html"/>        
+        <bt:Url id="Taskpane.Url" DefaultValue="https://dev-terry-01.github.io/taskpane.html"/>
+        <bt:Url id="WebViewRuntime.Url" DefaultValue="https://dev-terry-01.github.io/taskpane_msg_compose.html" />
         <!-- Entry needed for classic Outlook on Windows. -->
-        <bt:Url id="JSRuntime.Url" DefaultValue="https://dev240829.github.io/taskpane_msg_compose.js" /> 
+        <bt:Url id="JSRuntime.Url" DefaultValue="https://dev-terry-01.github.io/taskpane_msg_compose.js" /> 
       </bt:Urls>
       <bt:ShortStrings>
         <bt:String id="GroupLabel" DefaultValue="Flex365x Add-in"/>
